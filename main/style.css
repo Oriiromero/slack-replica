@@ -5,4 +5,34 @@
 
 header {
   background-color: #611f69;
+  width: 100vw;
+}
+header div {
+  background-color: #611f69;
+}
+header nav {
+  width: 100%;
+  padding: 10px;
+  height: 60px;
+}
+header nav .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+header nav .nav-container .logo {
+  width: 80px;
+  margin-left: 10px;
+}
+header nav .nav-container .logo img {
+  width: 100%;
+}
+header nav .nav-container .burger {
+  width: 25px;
+  margin-right: 35px;
+}
+header nav .nav-container .burger img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
