@@ -205,4 +205,47 @@ header .botton-gif img {
 .section-one .logos-container .logos #etsy img {
   width: 74px;
   height: 36px;
+}
+
+.section-two_box {
+  background-color: #f4ede4;
+  padding: 48px 0 50px 0;
+}
+.section-two_box .box_image-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.section-two_box .box_text {
+  margin-left: 16px;
+  margin-top: 32px;
+  text-align: start;
+}
+.section-two_box .box_text h2 {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1.1875;
+  letter-spacing: -0.3px;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.8px;
+}
+.section-two_box .box_text p {
+  font-weight: 400;
+  font-family: "Roboto Flex", sans-serif;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+  letter-spacing: 0.3px;
+  padding: 0 15px 15px 0;
+}
+.section-two_box .box_text a {
+  font-family: "Roboto Flex", sans-serif;
+  line-height: 1.4444;
+  letter-spacing: 0.2px;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #1264a3;
+  text-decoration: none;
+  padding-top: 5px;
 }/*# sourceMappingURL=style.css.map */
