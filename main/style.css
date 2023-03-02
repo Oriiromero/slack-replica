@@ -128,4 +128,81 @@ header .botton-gif {
 header .botton-gif img {
   width: 100%;
   height: 100%;
+}
+
+.section-one {
+  background-color: #f4ede4;
+  padding-top: 30px;
+  text-align: center;
+}
+.section-one p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1.125;
+  letter-spacing: 0.9px;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.section-one .logos-container {
+  width: 100%;
+}
+.section-one .logos-container .logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.section-one .logos-container .logos .logos-item {
+  margin: 10px;
+}
+.section-one .logos-container .logos #airbnb {
+  width: 120px;
+  height: 39px;
+}
+.section-one .logos-container .logos #airbnb img {
+  width: 120px;
+  height: 35px;
+}
+.section-one .logos-container .logos #nasa {
+  width: 75px;
+  height: 64px;
+}
+.section-one .logos-container .logos #nasa img {
+  width: 75px;
+  height: 65px;
+}
+.section-one .logos-container .logos #uber {
+  width: 90px;
+  height: 30px;
+}
+.section-one .logos-container .logos #uber img {
+  width: 75px;
+  height: 26px;
+}
+.section-one .logos-container .logos #target {
+  width: 48px;
+  height: 52px;
+}
+.section-one .logos-container .logos #target img {
+  width: 48px;
+  height: 48px;
+}
+.section-one .logos-container .logos #nyt {
+  width: 230px;
+  height: 36px;
+}
+.section-one .logos-container .logos #nyt img {
+  width: 230px;
+  height: 32px;
+}
+.section-one .logos-container .logos #etsy {
+  width: 74px;
+  height: 40px;
+}
+.section-one .logos-container .logos #etsy img {
+  width: 74px;
+  height: 36px;
 }/*# sourceMappingURL=style.css.map */

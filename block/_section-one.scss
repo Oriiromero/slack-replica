@@ -1,0 +1,94 @@
+.section-one {
+    background-color: #f4ede4;
+    padding-top: 30px;
+    text-align: center;
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        line-height: 1.125;
+        letter-spacing: .9px;
+        font-size: .875rem;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .logos-container {
+        width: 100%;
+
+        .logos {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+
+            .logos-item {
+                margin: 10px;
+            }
+            
+            #airbnb {
+                width: 120px;
+                height: 39px;
+                
+                img {
+                    width: 120px;
+                    height: 35px;
+                }
+            }
+
+            #nasa {
+                width: 75px;
+                height: 64px;
+
+                img {
+                    width: 75px;
+                    height: 65px;
+                }
+            }
+
+            #uber {
+                width: 90px;
+                height: 30px;
+
+                img {
+                    width: 75px;
+                    height: 26px;
+                }
+            }
+
+            #target {
+                width: 48px;
+                height: 52px;
+
+                img {
+                    width: 48px;
+                    height: 48px;
+                }
+            }
+
+            #nyt {
+                width: 230px;
+                height: 36px;
+
+                img {
+                    width: 230px;
+                    height: 32px;
+                }
+            }
+
+            #etsy {
+                width: 74px;
+                height: 40px;
+
+                img {
+                    width: 74px;
+                    height: 36px;
+                }
+            }
+          
+        }
+    }
+    
+}
