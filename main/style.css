@@ -12,7 +12,6 @@ header {
   /*BOTTOM GIF*/
 }
 header nav {
-  width: 100%;
   padding: 10px;
   height: 60px;
 }
@@ -356,4 +355,24 @@ header .botton-gif img {
   font-size: 13px;
   margin-bottom: 1rem;
   font-weight: 400;
+}
+
+.section-four .video-container {
+  width: 97%;
+  height: 189.14px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  overflow: hidden;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+}
+.section-four .video-container iframe {
+  width: 100%;
+  height: 200px;
+}
+.section-four .info-box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
