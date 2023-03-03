@@ -526,6 +526,7 @@ header .botton-gif img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 390px;
 }
 .curvy-background h3 {
   margin: 0 10px;
@@ -582,13 +583,11 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 370px;
+  width: 390px;
+  height: 100vh;
 }
 footer .footer-top {
-  width: 360px;
-  height: 290px;
   margin-top: 40px;
-  padding-bottom: 40px;
 }
 footer .footer-top .foot-image {
   width: 54px;
@@ -632,7 +631,7 @@ footer .footer-bottom {
   display: flex;
   flex-direction: column;
   height: 350px;
-  width: 350px;
+  width: 370px;
   padding-top: 25px;
   padding-left: 8px;
 }
@@ -658,6 +657,7 @@ footer .footer-bottom .download {
   height: 30px;
   margin-bottom: 20px;
   margin-top: 20px;
+  padding-left: 8px;
 }
 footer .footer-bottom .download a {
   position: absolute;
@@ -674,13 +674,14 @@ footer .footer-bottom .download img {
 footer .footer-bottom .socials {
   display: flex;
   height: 45px;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 10px;
   padding-bottom: 15px;
   justify-content: space-around;
   padding-top: 5px;
 }
 footer .copyright {
+  margin-top: 30px;
   padding-left: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
