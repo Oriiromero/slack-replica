@@ -515,4 +515,65 @@ header .botton-gif img {
   border-radius: 100%;
   background-color: #611f69;
   cursor: pointer;
+}
+
+.curvy-background {
+  background-color: #4a154b;
+  height: 412px;
+  -webkit-clip-path: ellipse(105% 100% at center top);
+          clip-path: ellipse(105% 100% at center top);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.curvy-background h3 {
+  margin: 0 10px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.158;
+  letter-spacing: -0.8px;
+  margin-top: 0;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.curvy-background .anchor-curvy {
+  border: 1px solid white;
+  border-radius: 4px;
+  line-height: 1.2857;
+  letter-spacing: 0.8px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  padding: 19px 40px 20px;
+  text-align: center;
+  width: 280px;
+  height: 20px;
+  margin: 15px 0;
+}
+.curvy-background .anchor-curvy a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.curvy-background .anchor-curvy-violet {
+  border: 1px solid white;
+  border-radius: 4px;
+  line-height: 1.2857;
+  letter-spacing: 0.8px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  padding: 19px 40px 20px;
+  text-align: center;
+  width: 280px;
+  height: 20px;
+  margin: 35px 0 0 0;
+  background-color: white;
+}
+.curvy-background .anchor-curvy-violet a {
+  color: #4a154b;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
