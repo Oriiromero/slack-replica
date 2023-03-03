@@ -18,9 +18,68 @@
     }
 
     .info-box {
-        text-align: center;
+        text-align: start;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+        padding: 32px;
+
+        .italic-quote {
+            font-family: 'Roboto Flex', sans-serif;
+            font-weight: 300;
+            line-height: 1.417;
+            letter-spacing: -.3px;
+            margin-top: 0;
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+
+        .customer-quote {
+            font-family: 'Roboto Flex', sans-serif;
+            font-weight: 700;
+            line-height: 1.417;
+            letter-spacing: -.3px;
+            margin-top: 0;
+            font-size: 17px;
+            margin-bottom: 1rem;
+        }
+
+        .work {
+            font-family: 'Roboto Flex', sans-serif;
+            font-weight: 400;
+            line-height: 1.417;
+            letter-spacing: .2px;
+            margin-top: 0;
+            font-size: 17px;
+            margin-bottom: 1rem;
+        }
+
+        a {
+            width: 100%;
+            max-width: 330px;
+            color: #1264a3;
+            text-decoration: none;
+            letter-spacing: .2px;
+            font-family: 'Roboto Flex', sans-serif;
+            font-weight: 500;
+            padding-bottom: 16px;
+        }
+        
+    }
+
+    .content-box {
+        padding: 0 4vw;
+        text-align: center;
+
+        .content-quote {
+            font-family: 'Roboto Flex', sans-serif;
+            color: #696969;
+            font-weight: 400;
+            line-height: 1.2857;
+            letter-spacing: normal;
+            font-size: .875rem;
+            margin-bottom: 1rem;
+        }
     }
 }

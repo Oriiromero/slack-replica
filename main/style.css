@@ -371,8 +371,60 @@ header .botton-gif img {
   height: 200px;
 }
 .section-four .info-box {
-  text-align: center;
+  text-align: start;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  padding: 32px;
+}
+.section-four .info-box .italic-quote {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 300;
+  line-height: 1.417;
+  letter-spacing: -0.3px;
+  margin-top: 0;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+.section-four .info-box .customer-quote {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 700;
+  line-height: 1.417;
+  letter-spacing: -0.3px;
+  margin-top: 0;
+  font-size: 17px;
+  margin-bottom: 1rem;
+}
+.section-four .info-box .work {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  line-height: 1.417;
+  letter-spacing: 0.2px;
+  margin-top: 0;
+  font-size: 17px;
+  margin-bottom: 1rem;
+}
+.section-four .info-box a {
+  width: 100%;
+  max-width: 330px;
+  color: #1264a3;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+.section-four .content-box {
+  padding: 0 4vw;
+  text-align: center;
+}
+.section-four .content-box .content-quote {
+  font-family: "Roboto Flex", sans-serif;
+  color: #696969;
+  font-weight: 400;
+  line-height: 1.2857;
+  letter-spacing: normal;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=style.css.map */
