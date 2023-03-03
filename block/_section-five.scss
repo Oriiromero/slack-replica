@@ -1,0 +1,101 @@
+.section-five {
+    height: 600px;
+    background-color: #f4ede4;
+    padding: 45px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .cards-title {
+        text-align: center;
+        padding: 0 4vw;
+        font-weight: 700;
+        line-height: 1.1875;
+        letter-spacing: -.3px;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .cards {
+        width: 265px;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 15px 15px 0 15px;
+        
+
+        .card {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card-top {
+            width: 100%;
+            height: 100%;
+
+             img{
+                width: 100%;
+             }
+        }
+
+        .card-mid {
+            width: 100%;
+            height: 100%;
+            text-align: start;
+
+            p {
+                font-weight: 400;
+                font-family: 'Roboto Flex', sans-serif;
+                margin-top: 20px;
+                font-size: .875rem;
+                color: #454245;
+            }
+
+            h3 {
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.4rem;
+                color: #000;
+                font-weight: 700;
+                margin-top: 15px;
+            }
+
+        }
+
+        .card-bottom {
+            width: 100%;
+            height: 100%;
+            padding-top: 70px;
+            
+            a{
+                font-weight: 700;
+                font-family: 'Roboto Flex', sans-serif;
+                color: #1264a3;
+                text-decoration: none;
+                text-transform: uppercase;
+                letter-spacing: .8px;
+                font-size: .875rem;
+            }
+        }
+    }
+
+    .circles {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        height: 20px;
+        margin-top: 45px;
+
+        .circle {
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background-color: #611f69;
+            cursor: pointer;
+        }
+    }
+}
